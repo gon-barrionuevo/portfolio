@@ -1,3 +1,4 @@
+import { ABOUT_TEXT } from "../constants"
 import gonOficina from "../assets/gon-oficina.jpg"
 
 const About = () => {
@@ -7,7 +8,12 @@ const About = () => {
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex items-center justify-center">
-              <img src={gonOficina} alt="about" />
+              <img className="rounded-2xl" src={gonOficina} alt="about" />
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2">
+            <div className="flex justify-center lg:justify-start">
+              <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
             </div>
           </div>
         </div>
