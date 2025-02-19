@@ -71,7 +71,12 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Castillo 137 ",
+  phoneNo: "+54 1153137048",
+  email: "gonbarrionuevo@gmail.com",
 };
+
+export const URL_LINKS = {
+  linkedin: "https://www.linkedin.com/in/gonzalo-barrionuevo-7a63ba90/?locale=en_US",
+  github: "https://github.com/gon-barrionuevo/"
+}
