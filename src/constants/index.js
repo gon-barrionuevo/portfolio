@@ -1,85 +1,77 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+export const HERO_CONTENT = `Senior QA Automation Engineer with several years of experience developing robust 
+automation frameworks and enhancing software quality. Proactive, reliable, and driven by continuous improvement. 
+I enjoy tackling challenges that help me grow and expand my technical expertise. Strong problem-solving skills, 
+collaborative mindset, and the ability to adapt quickly to new technologies..`;
 
-export const HERO_CONTENT = `QA Automation that enjoys developing, pro-active, responsible, motivated to grow professionally and personally. Ability to solve problems and develop solutions working on team. 
-Interested in crypto projects. #CryptoEnthusiast`;
+export const ABOUT_TEXT = `
+Senior QA Automation Engineer (SDET) with strong experience designing and implementing automated testing frameworks using Java + Selenium, Python + Selenium, and Playwright + TypeScript.
+I focus on building stable, scalable test architectures that accelerate delivery and improve product reliability.
 
-export const ABOUT_TEXT = `I am a SDET/Frontend Developer who loves personal growth and constant learning with lots of experience in testing, automation, and bug reporting across various industries. 
-My stack includes different programming languages/tools like Java/Selenium - Python/Selenium - Playwright/Typescript for automation.`;
+Currently exploring Frontend Development (React + TypeScript) to broaden my technical versatility and contribute across the stack.
+Highly motivated by challenges, continuous learning, and delivering high-quality software with measurable impact.
+`;
 
 export const EXPERIENCES = [
   {
     year: "2022 - Present",
     role: "Senior QA Automation Engineer",
     company: "DEPT",
-    description: `Worked creating and updating automation scripts (Java-Selenide), testing new features and reporting bugs`,
+    description: `• SimpliSafe:
+    Responsible for frontend and backend testing, including test case creation, regression testing, smoke testing, 
+    and detailed bug reporting. Ensured product quality by validating key user flows and collaborating closely with 
+    developers to resolve issues efficiently (Manual testing, Postman, JIRA, Test cases creation).
+    
+    • Foundation Medicine:
+    Responsible for automating testing processes by maintaining existing automation frameworks and developing new 
+    features to ensure the highest possible test coverage. Worked with Java, Selenide, and Cucumber to support 
+    continuous integration and improve overall testing efficiency.
+    
+    • Examity/Meazure Learning:
+    Led the automation of testing processes by maintaining existing code and developing new features to expand test 
+    coverage. Worked with Python, Selenium, and GitHub to ensure reliable, 
+    scalable automation aligned with product requirements.`
+    ,
     technologies: ["Java", "Selenium", "Typescript", "Python", "Playwright","Cucumber","Git","Jenkins"],
   },
   {
     year: "2021 - 2022",
     role: "Senior QA Automation Engineer",
     company: "Assist Card",
-    description: `I was in charge of the automation team, creating automation projects for internal and external platforms.`,
+    description: `Led the automation team, designing and developing automation solutions for internal and external 
+    platforms. Provided mentorship, guidance, and technical support to team members to ensure high-quality delivery 
+    and alignment with best practices.`,
     technologies: ["Java", "Selenium", "API Testing", "mySQL"],
   },
   {
     year: "2020 - 2021",
     role: "Ssr. QA Automation Engineer",
     company: "Atix Labs",
-    description: `I worked on a crypto exchange (MOC Exchange) testing new features, identifying  bugs, reporting  issues and updating the automation project.`,
+    description: `Worked on a crypto exchange platform (MOC Exchange), performing feature testing, identifying and 
+    reporting defects, and continuously updating the automation framework to ensure high coverage and support fast-paced
+    product releases.`,
     technologies: ["Java", "Selenium", "JIRA"],
   },
   {
     year: "2017 - 2019",
     role: "Information Security Analyst",
     company: "Despegar.com",
-    description: `Worked in the creation of automation scripts and Networking and Firewall manage`,
+    description: `Contributed to the development of automation scripts while also managing networking and firewall 
+    configurations to support system stability and security.`,
     technologies: ["Python", "Selenium"],
   },
   {
     year: "2014 - 2017",
     role: "Full stack developer",
     company: "Despegar.com",
-    description: `Creation of the Automation Project for the Creation, Update and Delete of internal users & worked in a FullStack Project for registering the Creation, Update and Delete of internal users`,
+    description: `Built an automation project to support the creation, update, and deletion of internal users. 
+    Additionally, worked on a full-stack application responsible for registering, updating, and removing internal user 
+    records, contributing to both frontend and backend functionality.`,
     technologies: ["Java", "Selenium", "Javascript", "JIRA","PHP","MySQL DB"],
   },
 ];
 
-export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-];
-
 export const CONTACT = {
-  address: "Castillo 137 ",
+  address: "Buenos Aires, Arg. ",
   phoneNo: "+54 1153137048",
   email: "gonbarrionuevo@gmail.com",
 };
