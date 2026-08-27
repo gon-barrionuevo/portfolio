@@ -16,7 +16,11 @@ export const EXPERIENCES = [
     year: "2022 - Present",
     role: "Senior QA Automation Engineer",
     company: "DEPT",
-    description: `• SimpliSafe:
+    description: `• D Assistant:
+    Responsible for creating an automation project from scratch using Playwright and TypeScript. 
+    In charge of both automated and manual testing for an AI assistant Chrome extension.
+    
+    • SimpliSafe:
     Responsible for frontend and backend testing, including test case creation, regression testing, smoke testing, 
     and detailed bug reporting. Ensured product quality by validating key user flows and collaborating closely with 
     developers to resolve issues efficiently (Manual testing, Postman, JIRA, Test cases creation).
