@@ -29,7 +29,7 @@ export const Hero = () => {
                       initial="hidden"
                       animate="visible"
                       className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                      SDET & Frontend Developer
+                      QA Automation Engineer / SDET 
                     </motion.span>
                     <motion.p 
                       variants={container(1)}
